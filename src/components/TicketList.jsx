@@ -5,12 +5,14 @@ import PropTypes from 'prop-types';
 function TicketList(props){
   return (
     <div>
+      This is ticket list
       <hr/>
       {props.ticketList.map((ticket) =>
         <Ticket names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
-          key={ticket.id}/>
+          key={ticket.id}
+          formattedWaitTime={ticket.formattedWaitTime}/>
       )}
     </div>
   );
