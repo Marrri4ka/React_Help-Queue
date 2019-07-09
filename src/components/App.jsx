@@ -52,6 +52,10 @@ class App extends React.Component {
     this.setState({masterTicketList: newMasterTicketList});
   }
 
+  handleChangingSelectedTicket(ticketId){
+  this.setState({selectedTicket: ticketId});
+}
+
 
   render(){
     return (
