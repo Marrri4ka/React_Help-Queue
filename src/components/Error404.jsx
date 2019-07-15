@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
-import errorPic from '../assets/img/Error.png';
+
 
 
 function Error404(props){
